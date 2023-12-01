@@ -6,7 +6,7 @@ lines_text = []
 grouped_numbers_list = []
 count = 0
 
-f = open("text1.txt", "r")
+f = open("text.txt", "r")
 for x in f:
     lines_text.append(x[0:-1])
 
