@@ -50,9 +50,6 @@ print(5050-sum(game_id))
 #         sets = line.strip().split(';')
 #         for set_ in sets:
 #             color_counts = {'red': 0, 'blue': 0, 'green': 0}
-#             for number, color in re.findall(pattern, set_):
-#                 color_counts[color] = max(color_counts[color], int(number))
-
 #             if color_counts['red'] > 12 or color_counts['blue'] > 14 or color_counts['green'] > 13:
 #                 game_id.append(index + 1)
 #                 break  # Exit the inner loop as soon as a condition is met
